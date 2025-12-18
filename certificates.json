@@ -1,0 +1,21 @@
+{
+  "HX05LI204977": {
+    "name": "Tapesh Gour",
+    "course": "Java Programming Internship",
+    "certificateId": "HX05LI204977",
+    "issueDate": "05 December 2025",
+    "mode": "WFH (Remote)",
+    "image": "Screenshot 2025-12-18 165227.png",
+    "status": "VERIFIED"
+  },
+
+  "ENG-DATA-2025-0012": {
+    "name": "Name",
+    "course": "Data Engineer Course",
+    "certificateId": "ENG-DATA-2025-0012",
+    "issueDate": "15 Jan 2025",
+    "mode": "Industry-Oriented Professional Training",
+    "image": "Screenshot 2025-12-18 165227.png",
+    "status": "VERIFIED"
+  }
+}
