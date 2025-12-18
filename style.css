@@ -110,7 +110,7 @@
       .header h1 {
         margin: 0;
         font-size: 28px;
-        color: #0b5ed7;
+        color: #5f5f5f;
       }
 
       .status {
@@ -170,7 +170,7 @@
 
 /* Footer Section */
 footer {
-  background: #bce4e2;
+  background: #ecd9c7;
   padding: 20px 80px 20px;
   color: #e2e8f0;
   font-size: 13px;
@@ -181,7 +181,7 @@ footer {
 }
 
 .footer span {
-  color: #3c567a;
+  color: #462f1b;
 }
 
 @media (max-width: 900px) {
@@ -193,5 +193,62 @@ footer {
 @media (max-width: 600px) {
   .footer-container {
     grid-template-columns: 1fr;
+  }
+}
+
+/* ============================= */
+/* MOBILE HEADER OPTIMIZATION */
+/* ============================= */
+@media (max-width: 600px) {
+
+  .topbar {
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .topbar-left {
+    margin-bottom: 6px;
+  }
+
+  .topbar-left h3,
+  .topbar-left img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .topbar-center {
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .info .label {
+    font-size: 12px;
+  }
+
+  .info .value {
+    font-size: 14px;
+  }
+
+  .topbar-right {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .cta-btn {
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
   }
 }
